@@ -11,7 +11,6 @@ ReadingFile readingFile = new ReadingFile();
 EncryptingAndCreatingFile encryptingAndCreatingFile = new EncryptingAndCreatingFile();
 
 //Sending the user to the wanted page
-
 if (choice != null)
 {
     if (choice == "A")
@@ -22,6 +21,7 @@ if (choice != null)
 
     if (choice == "B")
     {
+        
         Console.WriteLine("You have chosen to write a new file");
         //encryptingAndCreatingFile.encryptingAndCreatingFile();
     }
