@@ -23,6 +23,6 @@ if (choice != null)
     if (choice == "B")
     {
         Console.WriteLine("You have chosen to write a new file");
-        encryptingAndCreatingFile.encryptingAndCreatingFile();
+        //encryptingAndCreatingFile.encryptingAndCreatingFile();
     }
 }
