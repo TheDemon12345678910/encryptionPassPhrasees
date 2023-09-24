@@ -40,6 +40,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Spectre.Console": {
+              "target": "Package",
+              "version": "[0.47.1-preview.0.25, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

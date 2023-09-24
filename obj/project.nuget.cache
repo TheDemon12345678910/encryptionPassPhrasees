@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "7Hip0HBBmuWuLF5HwNEU7z8JjOhkM0OuIO6XCj914K8l60fNdfLNiEW20MAxVrVt9SKLZj+DhRkIlnFxlvaEEQ==",
+  "dgSpecHash": "cG/i4rQDsiIByECPLVU9TS6ojpUcOaOIAH3vaJBslPr3kdruY4w7tILglIESC/2+uwZunFvHPfLoP4esFxG9ww==",
   "success": true,
   "projectFilePath": "C:\\Users\\aneho\\#AllProjects\\encryptionPassPhrase\\encryptionPassPhrase.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\aneho\\.nuget\\packages\\spectre.console\\0.47.1-preview.0.25\\spectre.console.0.47.1-preview.0.25.nupkg.sha512",
+    "C:\\Users\\aneho\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
+  ],
   "logs": []
 }
