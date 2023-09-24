@@ -9,6 +9,8 @@ public class ReadingFile
 {
     public void readingFile()
     {
+        Console.WriteLine("You have chosen to read an already existing file");
+
         Console.WriteLine(
             "So You want to Read a File i see.\nHere is a list of all the files, that you can choose to read from:");
         string path = @"C:\Users\aneho\#AllProjects\encryptionPassPhrase\EncryptedFiles";
@@ -23,10 +25,11 @@ public class ReadingFile
             var fruit = AnsiConsole.Prompt(
                 new SelectionPrompt<string>()
                     .Title("What's your [green]favorite fruit[/]?")
-                    .PageSize(10)
+                    .PageSize(20)
                     .MoreChoicesText("[grey](Move up and down to reveal more fruits)[/]")
-                    .AddChoices(new[] {
-                        "Apple", "Apricot", "Avocado", 
+                    .AddChoices(new[]
+                    {
+                        "Apple", "Apricot", "Avocado",
                         "Banana", "Blackcurrant", "Blueberry",
                         "Cherry", "Cloudberry", "Cocunut",
                     }));

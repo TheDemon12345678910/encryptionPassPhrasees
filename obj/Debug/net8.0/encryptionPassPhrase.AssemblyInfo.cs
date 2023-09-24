@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("encryptionPassPhrase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86f31e59da196e85976b7cabe90170a16a5a5539")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b48fec0973b314cfed60436890c0896eed6bc88e")]
 [assembly: System.Reflection.AssemblyProductAttribute("encryptionPassPhrase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("encryptionPassPhrase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
