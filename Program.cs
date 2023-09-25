@@ -33,13 +33,45 @@ void desission()
     if (desicion == choices[0])
     {
         readingFile.readingFile();
+        waitForeAction();
+        wouldYouLikeOneMoreTime();
     }
     else if (desicion == choices[1])
     {
         //encryptingAndCreatingFile.encryptingAndCreatingFile();
+        waitForeAction();
+        wouldYouLikeOneMoreTime();
     }
     else
     {
         Console.WriteLine("That is not a valid choice, please try again");
     }
+}
+
+void wouldYouLikeOneMoreTime()
+{
+    Console.Clear();
+    //Ask the user if they are finished, or if they want to go again.
+    Console.WriteLine("Are you finished, or would you like to read and write more files?");
+    var desicion = AnsiConsole.Prompt(
+        new SelectionPrompt<string>()
+            .Title("What would you like [green]to do[/]?")
+            .PageSize(10)
+            .MoreChoicesText("[grey](To get more options, use up and down arrows)[/]")
+            .AddChoices(new[] {"Yes, I would like to do more", "No, I want to finish"}));
+
+    if (desicion == "Yes, I would like to do more")
+    {
+        desission();
+    }
+}
+
+void waitForeAction()
+{
+    Console.WriteLine("Press Enter to continue");
+    do {
+        while (! Console.KeyAvailable) {
+            Thread.Sleep(50);
+        }       
+    } while (Console.ReadKey(true).Key != ConsoleKey.Enter);
 }

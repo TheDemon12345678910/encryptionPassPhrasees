@@ -1,4 +1,5 @@
-﻿using Spectre.Console;
+﻿using System.Security.AccessControl;
+using Spectre.Console;
 
 namespace encryptionPassPhrase;
 
@@ -29,6 +30,29 @@ public class ReadingFile
 
         // Echo the fruit back to the terminal
         AnsiConsole.WriteLine($"{option} is now your favorite!");
+        int indexOfOption = readableFiles.IndexOf(option);
+        readSpecificFile(indexOfOption);
+
+    }
+
+    private void readSpecificFile(int indexOfOption)
+    {
+        // Specify the relative path to the SpecificObjects folder
+        string relativePath = Path.Combine("..\\encryptionPassPhrase\\EncryptedFiles");
+        // List all .txt files in the SpecificObjects folder
+        string[] txtFiles = Directory.GetFiles(relativePath, "*.txt");
+        
+        // To read a text file line by line
+        if (File.Exists(txtFiles[indexOfOption])) {
+            // Store each line in array of strings
+            string[] lines = File.ReadAllLines(txtFiles[indexOfOption]);
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.BackgroundColor = ConsoleColor.Gray;
+            foreach(string ln in lines)
+                Console.Write(ln + "\n");
+        }
+        // Restore original colors  
+        Console.ResetColor();
     }
 
     private List<string> getAllFiles()
