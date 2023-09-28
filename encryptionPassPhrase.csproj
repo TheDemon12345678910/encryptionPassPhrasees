@@ -11,4 +11,8 @@
     <PackageReference Include="Spectre.Console" Version="0.47.1-preview.0.25" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="EncryptedFiles\" />
+  </ItemGroup>
+
 </Project>

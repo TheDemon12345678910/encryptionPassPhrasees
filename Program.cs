@@ -33,13 +33,16 @@ void desission()
 
     if (desicion == choices[0])
     {
-        readingFile.readingFile();
+        readingFile.readingFile((int)secretKeys.sharedKeys());
         waitForeAction();
         wouldYouLikeOneMoreTime();
     }
     else if (desicion == choices[1])
     {
-        //encryptingAndCreatingFile.encryptingAndCreatingFile();
+        int sharedKey = (int)secretKeys.sharedKeys();
+        Console.WriteLine("Here you can type your Shared-key with Bob and Alice (you have a shared key of this value: "+ sharedKey +")");
+        int inputKey = Convert.ToInt32(Console.ReadLine());
+        encryptingAndCreatingFile.encryptMessage(inputKey);
         waitForeAction();
         wouldYouLikeOneMoreTime();
     }

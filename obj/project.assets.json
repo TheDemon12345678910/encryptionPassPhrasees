@@ -83,11 +83,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aneho\\AllProjects\\Semester3\\encryptionPassPhrase\\encryptionPassPhrase.csproj",
+      "projectUniqueName": "C:\\Users\\aneho\\AllProjects\\Semester3\\PassingPhaces\\encryptionPassPhrase.csproj",
       "projectName": "encryptionPassPhrase",
-      "projectPath": "C:\\Users\\aneho\\AllProjects\\Semester3\\encryptionPassPhrase\\encryptionPassPhrase.csproj",
+      "projectPath": "C:\\Users\\aneho\\AllProjects\\Semester3\\PassingPhaces\\encryptionPassPhrase.csproj",
       "packagesPath": "C:\\Users\\aneho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aneho\\AllProjects\\Semester3\\encryptionPassPhrase\\obj\\",
+      "outputPath": "C:\\Users\\aneho\\AllProjects\\Semester3\\PassingPhaces\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aneho\\AppData\\Roaming\\NuGet\\NuGet.Config"
