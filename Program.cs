@@ -10,6 +10,7 @@ Console.WriteLine("What would you like to do right now?");
 
 ReadingFile readingFile = new ReadingFile();
 EncryptingAndCreatingFile encryptingAndCreatingFile = new EncryptingAndCreatingFile();
+SecretKeys secretKeys = new SecretKeys(); //This file is 
 
 // Ask for the user's, what page they would like to go to
 string[] choices =
