@@ -38,7 +38,7 @@ public class ReadingFile
     private void readSpecificFile(int indexOfOption)
     {
         // Specify the relative path to the SpecificObjects folder
-        string relativePath = Path.Combine("..\\encryptionPassPhrase\\EncryptedFiles");
+        string relativePath = Path.Combine("..\\..\\..\\EncryptedFiles");
         // List all .txt files in the SpecificObjects folder
         string[] txtFiles = Directory.GetFiles(relativePath, "*.txt");
         
@@ -58,7 +58,7 @@ public class ReadingFile
     private List<string> getAllFiles()
     {
         // Specify the relative path to the SpecificObjects folder
-        string relativePath = Path.Combine("..\\encryptionPassPhrase\\EncryptedFiles");
+        string relativePath = Path.Combine("..\\..\\..\\EncryptedFiles");
         // List all .txt files in the SpecificObjects folder
         string[] txtFiles = Directory.GetFiles(relativePath, "*.txt");
         // Display the file names in the console

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aneho\\#AllProjects\\encryptionPassPhrase\\encryptionPassPhrase.csproj": {}
+    "C:\\Users\\Miran\\encryptionPassPhrase\\encryptionPassPhrase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aneho\\#AllProjects\\encryptionPassPhrase\\encryptionPassPhrase.csproj": {
+    "C:\\Users\\Miran\\encryptionPassPhrase\\encryptionPassPhrase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aneho\\#AllProjects\\encryptionPassPhrase\\encryptionPassPhrase.csproj",
+        "projectUniqueName": "C:\\Users\\Miran\\encryptionPassPhrase\\encryptionPassPhrase.csproj",
         "projectName": "encryptionPassPhrase",
-        "projectPath": "C:\\Users\\aneho\\#AllProjects\\encryptionPassPhrase\\encryptionPassPhrase.csproj",
-        "packagesPath": "C:\\Users\\aneho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aneho\\#AllProjects\\encryptionPassPhrase\\obj\\",
+        "projectPath": "C:\\Users\\Miran\\encryptionPassPhrase\\encryptionPassPhrase.csproj",
+        "packagesPath": "C:\\Users\\Miran\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Miran\\encryptionPassPhrase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aneho\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Miran\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
