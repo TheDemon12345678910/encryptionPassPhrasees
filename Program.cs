@@ -4,7 +4,7 @@ using encryptionPassPhrase;
 using Spectre.Console;
 
 
-Console.WriteLine("Hello there.\nIt seems you have some secret stuff you want to either encrypt or decrypt");
+Console.WriteLine("It seems you have some secret stuff you want to either encrypt or decrypt");
 //Getting an input from the user
 Console.WriteLine("What would you like to do right now?");
 
